@@ -12,21 +12,7 @@ import javax.lang.model.util.ElementScanner14;
 // @lc code=start
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        // Arrays.sort(nums);
-        // int n = nums.length;
-
-        // int i = 0;
-        // int j = n - 1;
-        // while (i < j) {
-        // if (nums[i] + nums[j] == target) {
-        // return new int[] { i, j };
-        // } else if (nums[i] + nums[j] > target) {
-        // j--;
-        // } else {
-        // i++;
-        // }
-        // }
-        // return null;
+       
         HashMap<Integer, Integer> map = new HashMap<>();
 
         // fill HM
